@@ -34,13 +34,13 @@ warning("The user will be deleted!");
 
 Las funciones disponibles son:
 
-- success
-- error
-- info
-- warning
-- custom
+- **success**
+- **error**
+- **info**
+- **warning**
+- **custom**
 
-El uso de las funciones success, error, info y warning es muy sencillo. Tan sólo reciben como parámetro un string que mostrarán con el color de fondo predefinido
+El uso de las funciones *success*, *error*, *info* y *warning* es muy sencillo. Tan sólo reciben como parámetro un *string* que mostrarán con el color de fondo predefinido
 
 Ejemplo:
 ```
