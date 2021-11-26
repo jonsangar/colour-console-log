@@ -1,10 +1,10 @@
-### Colour console log
+# Colour console log
 
 Console log personalizado. Podrá mostrar mensajes de consola en navegadores como Firefox o Google Chrome con color de fondo personalizado.
 
 ## Instrucciones de uso
 
-# Instalación
+### Instalación
 
 Instalar el paquete
 
@@ -12,7 +12,7 @@ Instalar el paquete
 npm install colour-console-log
 ``` 
 
-# Importación
+### Importación
 
 Puede incluir las funciones disponibles en un objeto
 ```
