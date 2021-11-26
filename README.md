@@ -51,5 +51,5 @@ El uso de custom admite un segundo par√°metro para indicar el color CSS que ser√
 
 Ejemplo:
 ```
-log.custom("My custom log", "#dddddd");
+log.custom("My custom log", "#333333");
 ```

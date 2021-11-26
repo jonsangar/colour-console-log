@@ -21,7 +21,7 @@ function success(msg) {
  * @param {string} msg 
  */
 function error(msg) {
-	const styles = 'background-color: #ff3300; color: white; padding: 1px 2px; border-radius: 5px';
+	const styles = 'background-color: #ff3300; color: white; padding: 2px 8px; border-radius: 5px';
 	showLog(msg, styles);
 };
 /**
@@ -30,7 +30,7 @@ function error(msg) {
  * @param {string} msg 
  */
 function info(msg) {
-	const styles = 'background-color: #80bfff; color: white; padding: 1px 2px; border-radius: 5px';
+	const styles = 'background-color: #80bfff; color: white; padding: 2px 8px; border-radius: 5px';
 	showLog(msg, styles);
 };
 /**
@@ -39,19 +39,19 @@ function info(msg) {
  * @param {string} msg 
  */
 function warning(msg) {
-	const styles = 'background-color: #ff9d00; color: white; padding: 1px 2px; border-radius: 5px';
+	const styles = 'background-color: #ff9d00; color: white; padding: 2px 8px; border-radius: 5px';
 	showLog(msg, styles);
 };
 /**
  * Muestra un mensaje por consola con color de fondo personalizado
  * @example
- * custom('Hola mundo', '#DDDDDD');
+ * custom('Hola mundo', '#333333');
  *
  * @param {string} msg 
  * @param {string} color - Valor de color de la propiedad CSS background-color;
  */
 function custom(msg, color) {
-	const styles = `background-color: ${color}; color: white; padding: 1px 2px; border-radius: 5px`;
+	const styles = `background-color: ${color}; color: white; padding: 2px 8px; border-radius: 5px`;
 	showLog(msg, styles);
 }
 
