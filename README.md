@@ -39,3 +39,17 @@ Las funciones disponibles son:
 - info
 - warning
 - custom
+
+El uso de las funciones success, error, info y warning es muy sencillo. Tan sólo reciben como parámetro un string que mostrarán con el color de fondo predefinido
+
+Ejemplo:
+```
+log.info("Testing log");
+```
+
+El uso de custom admite un segundo parámetro para indicar el color CSS que será aplicado al fondo del mensaje por consola.
+
+Ejemplo:
+```
+log.custom("My custom log", "#dddddd");
+```

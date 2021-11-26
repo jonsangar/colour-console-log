@@ -9,6 +9,7 @@ var chai = require('chai'),
 chai.use(sinonChai);
 
 const message = 'Hello world';
+const color = '#dddddd';
 
 describe('Functions tests', () => {
 	beforeEach( function () {
@@ -25,19 +26,32 @@ describe('Functions tests', () => {
 		expect(console.log).to.be.called;
 	});
 
-	xit('Function error', () =>{
-
+	it('Function error', () =>{
+		log.error(message);
+		
+		// Comprobamos que llama a console log
+		expect(console.log).to.be.called;
 	});
 
-	xit('Function info', () => {
-	
+	it('Function info', () => {
+		log.info(message);
+		
+		// Comprobamos que llama a console log
+		expect(console.log).to.be.called;
 	});
 
-	xit('Function warning', () => {
-	
+	it('Function warning', () => {
+		log.warning(message);
+		
+		// Comprobamos que llama a console log
+		expect(console.log).to.be.called;
 	});
 
-	xit('Function custom', () => {
-	
+	it('Function custom', () => {
+		log.custom(message, color);
+
+		expect(color).to.be.string;
+		// Comprobamos que llama a console log
+		expect(console.log).to.be.called;
 	});
 });
