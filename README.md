@@ -22,7 +22,7 @@ const log = require('colour-console-log');
 log.success("Update successful");
 ```
 
-Puede importar las funciones que necesite de forma desesctructurada
+Puede importar las funciones que necesite de forma desestructurada
 ```
 import { success, error, warning } from 'colour-console-log';
 
